@@ -119,7 +119,7 @@ end
 
 def get_all_colors
   game_hash.each do |team|
-    puts team.class
+    puts team
     return team[:colors]
   end
 end
