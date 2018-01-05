@@ -118,8 +118,8 @@ def game_hash
 end
 
 def get_all_colors
-  game_hash.values.map do |team_data|
-    team_data[:colors]
+  game_hash.values.map do |team_hash|
+    team_hash[:colors]
   end
 end
 
