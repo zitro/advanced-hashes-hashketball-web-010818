@@ -120,7 +120,7 @@ end
 def get_all_colors
   colors = []
   game_hash.each do |team|
-    colors.push << team[1][:colors]
+    colors.concat(team[1][:colors])
   end
   colors
 end
