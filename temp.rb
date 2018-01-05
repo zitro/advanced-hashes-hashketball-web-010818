@@ -125,4 +125,4 @@ def get_all_colors
   colors
 end
 
-puts get_all_colors[0]
+puts get_all_colors
