@@ -124,4 +124,3 @@ def get_all_colors
 end
 
 puts get_all_colors
-puts "wot"
