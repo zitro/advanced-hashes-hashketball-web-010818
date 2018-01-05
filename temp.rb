@@ -118,10 +118,10 @@ def game_hash
 end
 
 def get_all_colors
-  game_hash.each do |team|
+  game_hash.map do |team|
     team[1][:colors]
-  end
 
+  end
 end
 
-puts get_all_colors[0]
+puts get_all_colors
