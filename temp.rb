@@ -120,7 +120,6 @@ end
 def get_all_colors
   game_hash.map do |team|
     team[1][:colors]
-
   end
 end
 
