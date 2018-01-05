@@ -119,8 +119,9 @@ end
 
 def get_all_colors
   game_hash.each do |team|
-    colors.concat(team[1][:colors])
+    team[1][:colors]
   end
+
 end
 
 puts get_all_colors[0]
